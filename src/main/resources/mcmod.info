@@ -1,0 +1,16 @@
+[
+{
+  "modid": "2b2t-utilities",
+  "name": "2b2t Utilities",
+  "description": "A forgemod with the 2b2tclantags API and the emoji API built in",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Tigermouthbear"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
