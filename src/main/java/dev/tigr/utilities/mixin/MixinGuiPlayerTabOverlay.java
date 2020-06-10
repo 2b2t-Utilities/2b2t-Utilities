@@ -1,6 +1,6 @@
-package me.tigermouthbear.utilities.mixin;
+package dev.tigr.utilities.mixin;
 
-import me.tigermouthbear.clantags.api.ClanTags;
+import dev.tigr.clantags.api.ClanTags;
 import net.minecraft.client.gui.GuiPlayerTabOverlay;
 import net.minecraft.client.network.NetworkPlayerInfo;
 import org.spongepowered.asm.mixin.Mixin;

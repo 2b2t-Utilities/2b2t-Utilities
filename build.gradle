@@ -22,7 +22,7 @@ apply plugin: "org.spongepowered.mixin"
 apply plugin: "com.github.johnrengelman.shadow"
 
 version = "1.0"
-group = "me.tigermouthbear.utilities" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = "dev.tigr.utilities" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "2b2t-utilities"
 
 sourceCompatibility = targetCompatibility = "1.8" // Need this here so eclipse task generates correctly.
@@ -34,7 +34,7 @@ minecraft {
     version = "1.12.2-14.23.5.2768"
     runDir = "run"
     mappings = "snapshot_20171003"
-    coreMod = "me.tigermouthbear.clantags.impl.mixin.MixinLoader"
+    coreMod = "dev.tigr.clantags.impl.mixin.MixinLoader"
     makeObfSourceJar = false
 }
 
@@ -111,7 +111,7 @@ jar {
                 "TweakClass": "org.spongepowered.asm.launch.MixinTweaker",
                 "TweakOrder": 0,
                 "FMLCorePluginContainsFMLMod": "true",
-                "FMLCorePlugin": "me.tigermouthbear.utilities.mixin.MixinLoader",
+                "FMLCorePlugin": "dev.tigr.utilities.mixin.MixinLoader",
                 "ForceLoadAsMod": "true"
         )
     }

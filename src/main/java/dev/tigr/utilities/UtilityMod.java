@@ -1,8 +1,7 @@
-package me.tigermouthbear.utilities;
+package dev.tigr.utilities;
 
-import me.tigermouthbear.clantags.api.ClanTags;
-import me.tigermouthbear.emoji.api.Emojis;
-import net.minecraft.client.Minecraft;
+import dev.tigr.clantags.api.ClanTags;
+import dev.tigr.emoji.api.Emojis;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.common.MinecraftForge;

@@ -1,10 +1,10 @@
 {
   "required": true,
   "compatibilityLevel": "JAVA_8",
-  "package": "me.tigermouthbear.utilities.mixin",
+  "package": "dev.tigr.utilities.mixin",
   "refmap": "mixins.2b2tutilities.refmap.json",
   "mixins": [
-      "MixinFontRenderer",
-      "MixinGuiPlayerTabOverlay"
+    "MixinFontRenderer",
+    "MixinGuiPlayerTabOverlay"
   ]
 }
